@@ -1,0 +1,116 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta charset="UTF-8">
+<title>h6_table</title>
+</head>
+<body>
+	<table border="1" width="200" height="200">
+		<tr>
+			<td>1</td>
+			<td>2</td>
+		</tr>
+		<tr>
+			<td>3</td>
+			<td>4</td>
+		</tr>
+		<tr>
+			<td>5</td>
+			<td>6</td>
+		</tr>
+	</table>
+
+	<table border="1" width="200" height="200">
+		<tr>
+			<td align="center">ㄱ</td>
+			<td align="right" valign="top">ㄹ</td>
+		</tr>
+		<tr>
+			<td valign="bottom">ㄴ</td>
+			<td align="center">ㅁ</td>
+		</tr>
+		<tr>
+			<td align="center">ㄷ</td>
+			<td align="center">ㅂ</td>
+		</tr>
+		
+	</table>
+		<table border="1" width="200" height="200">
+		<tr>
+			<td colspan="3">1</td>
+		</tr>
+		<tr>
+			<td rowspan="2">4</td>
+			<td>3</td>
+			<td>2</td>
+		</tr>
+		<tr>
+			<td colspan="2">5</td>
+		</tr>
+		
+	</table>
+		<table border="1" width="200" height="200">
+		<tr>
+			<td colspan="2">1</td>
+			<td rowspan="2">3</td>
+		</tr>
+		<tr>
+			<td rowspan="2">4</td>
+			<td>5</td>
+			
+		</tr>
+		<tr>
+			<td colspan="2">8</td>
+		</tr>
+	</table>
+	
+	<table border="1" width="200" height="200">
+		<tr>
+			<td colspan="3">1</td>
+			<td rowspan="3">3</td>
+		</tr>
+		
+		<tr>
+			<td rowspan="3">4</td>
+			<td>a</td>
+			<td>b</td>
+		</tr>
+		<tr>
+			<td>c</td>
+			<td>d</td>
+		</tr>
+		
+		<tr>
+			<td colspan="3">8</td>
+		</tr>
+	</table>
+	
+	<table border="1" width="200" height="200">
+		<tr>
+			<td align="center" colspan="2">1</td>
+			<td align="center" rowspan="2">3</td>
+		</tr>
+		
+		<tr>
+			<td align="center" rowspan="2">4</td>
+			<td align="center"> <!--  안에 테이블이 중앙으로 오도록 넣어준다. -->
+				<table border="1" width="90%" height="90%">
+					<tr>
+						<td align="center"> a </td>
+						<td align="center"> b </td>
+					</tr>
+					<tr>
+						<td align="center"> c </td>
+						<td align="center"> d </td>
+					</tr>
+				</table>
+			</td>
+		</tr>
+		<tr>
+			<td align="center" colspan="2">8</td>
+	</table>	
+	
+	
+
+</body>
+</html>

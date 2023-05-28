@@ -1,0 +1,91 @@
+@charset "UTF-8";
+#boardContentTbl{
+	width: 500px;
+	height: 60px;
+	border: #ffdab9 solid 5pox;
+	border-radius: 10px;
+	background-color: #8fcaca;
+	box-shadow: white 5px 5px 5px;
+	margin-top: 20px;
+}
+
+img{
+	max-width: 40%;
+	box-shadow: white 5px 5px 5px;
+}
+
+.boardPhoto{
+	width: 100px;
+	padding-top: 5px;
+}
+
+
+.boardWriter{
+	padding-left: 10px;
+	font-weight: 700;
+	height: 20px;
+	font-size: 30pt;
+	color: #ffffb5;
+}
+
+.boardWhen{
+	height: 20px;
+	color: #ffffb5;
+	font-size: 15pt;
+}
+
+.boardText{
+	padding: 15px;
+	color: #ffffb5;
+}
+
+#searchTbl{
+	margin-top: 20px;
+}
+
+.boardContentTbl button{
+	background-color: #8fcaca;
+	border: #ffdab9 solid 5px;
+	border-radius: 10px;
+	width: 400px;
+	box-shadow: white 5px 5px 5px;
+	font-size: 18pt;
+	color: black;
+}
+
+#searchInput:focus{
+	outline: none;
+}
+
+#searchBtn{
+	background-color: #f0f8ff;
+	border: #ffdab9 solid 5px;
+	border-radius: 10px;
+	font-size: 16pt;
+	font-weight: 600;
+	cursor: poointer;
+	color: #6495ed;
+	width: 80px;
+	height: 45px;
+}
+
+
+#boardL {
+	position: absolute;
+	font-size: 100px;
+	font-weight: 900;
+	color: teal;
+	top: 400px;
+	left: 510px;
+	text-decoration: none;
+}
+
+#boardR {
+	position: absolute;
+	font-size: 100px;
+	font-weight: 900;
+	color: teal;
+	top: 400px;
+	right: 510px;
+	text-decoration: none;
+}

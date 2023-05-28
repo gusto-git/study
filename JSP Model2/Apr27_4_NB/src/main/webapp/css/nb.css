@@ -1,0 +1,76 @@
+@charset "UTF-8";
+
+@font-face{
+	font-family: "i";
+	src: url("i.ttf");
+	
+}
+
+body{
+	background-image: url("2.jpg");
+	background-repeat: repeat-y;
+	background-position: center;
+	width: 100%;
+	margin-left: auto;
+	margin-right: auto;
+	font-family: "i";
+}
+
+#nbTbl{
+	margin-left: auto;
+	margin-right: auto;
+	width: 500px;
+	color: white;
+}
+
+#nbTbl th{
+	font-size: 60pt;
+	text-shadow: pink 3px 3px 5px;
+	height: 100px;
+}
+
+.td1{
+	font-size: 40pt;
+	color: white;
+	text-shadow: pink 3px 3px 3px;
+}
+marquee {
+	font-size : 20pt;
+	color : white;
+}
+
+button {
+	width: 400px;
+	height: 40px;
+	background-color: transparent;
+	font-size: 15pt;
+	font-family: "i";
+	color: white;
+	border-color:black;
+	
+}
+
+#ip{
+	width: 100px;
+	height: 20pt;
+}
+
+.td2{
+	color : black;
+}
+
+#finalTbl{
+	margin-left: auto;
+	margin-right: auto;
+	width: 500px;
+	
+}
+
+h1{
+	color:  red;
+	background-color: yellow
+	
+}
+
+
+

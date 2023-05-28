@@ -1,0 +1,30 @@
+@charset "UTF-8";
+
+#diaryTbl {
+	width: 1000px;
+	margin-left: auto;
+	margin-right: auto;
+	margin-top: 200px;
+	font-family: "h";
+	background-color: #6B66FF60;
+	font-size: 20pt;
+	border-spacing:  2px;
+}
+#diaryTbl .dataTr{
+	background-color: white;
+	color:pink;
+	height:40px;
+	cursor:pointer;
+}
+#diaryTbl td{
+	width: 45%;
+	border-bottom: #6B66FF solid 2px;
+	font-weight: 700;	
+	
+}
+
+#diaryTbl td:hover{
+	background-color:  #FFCC00;
+	color: #6B66FF;
+	
+}

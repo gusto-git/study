@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta charset="UTF-8">
+<title>Insert title here</title>
+</head>
+<body>
+	<a href="Calculator?x=10&y=5">10,5 계산하기</a>
+	<hr>
+	<!-- 
+		form : form 내부에 있는 button을 클릭하면
+				action자리에 쓴 쪽으로 요청해줌
+				
+			form 내부에 있는 input의 속성값으로 name을 줘서 -> 요청 파라미터명
+				* 요청파라미터 : Servlet의 getParameter("요청파라미터명")
+			input 안에 쓴 내용을 값으로 보내줌
+			
+			input 입력시
+			tap 키 : 다음 input으로 넘어가게 해줌
+			enter 키 : button누른셈 침 
+	 -->
+	<form action="Calculator">
+		x: <input name="x"><br> <!-- servlet에 입력한 변수명(파라미터명)과 동일 해야함 -->
+		y: <input name="y"><p>
+		<button>계산</button>
+	</form>
+	
+</body>
+</html>

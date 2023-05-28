@@ -1,0 +1,74 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta charset="UTF-8">
+<title>cssTest</title>
+<style type="text/css">
+	#today {
+		border: solid 2px;
+		border-color:red;
+	}
+	#divs{
+		border: solid 2px;
+		border-color:fuchsia;
+	}
+	#divs:hover{
+		background-color: orange;
+		font-family: "궁서";
+		color: red;
+		font-size: 40pt;
+	}
+	.c{
+		color: yellow;
+		background-color: hotpink;
+	}
+	h1{
+		background-color: silver;
+	}
+	h2.d{
+		border: dashed;
+		border-color: gray;
+	}
+	
+</style>
+</head>
+<body>
+	<h1 style="color:purple;">오늘 수업 곧 끝!!</h1>
+	<h1 style="text-shadow:gray 3px 3px 3px; color: lime;"> 그림자 만들자</h1>
+	
+	<span id="today">오늘 하루도 끝나가지</span><!-- 해당 영역만 차지 -->
+	<div id="divs">거의다 끝났구만</div> <!-- div는 한 줄을 다 차지함 -->
+	
+	<h2 class="c">id와  class구빈이 처음에는 헷갈림</h2>
+	<h2 class="c">아마 다음주나 되야 익숙해질듯</h2>
+	
+	<!-- 
+		CSS(Cascading Style Sheet)
+			HTML DOM 객체에 디자인을 부여
+			
+		위치
+			1) .html파일 내부 <head></head>부분
+			2) DOM객체의 속성 형태 ((비추))
+			3) .css파일을 따로 만들어서 적용 (주력)
+			
+		문법
+			선택자 {
+				속성명 : 값;
+				속성명 : 값;
+			}
+			
+		선택자 : id, class
+		(Selector)
+			기본형
+				태그명 - 태그명에 속하는 거 전부 다
+				#id명 - id지정한 값(중복 금지)
+				.class명 - class 지정한 값(중복 가능)
+			조합형
+				선택자, 선택자, ... - 여러개 선택
+				선택자 선택자 ... - 내부 선택 ^
+			상태형	
+				선택자: 상태 #AprTbl:hover
+			
+	 -->
+</body>
+</html>

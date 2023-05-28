@@ -1,0 +1,37 @@
+@charset "UTF-8";
+
+#memberInfoTbl {
+	border: 2px solid #ccc;
+	background-color: #D9E5FF
+}
+
+#memberInfoTbl img{
+	max-width: 100px; /* 이미지 최대 너비 */
+    max-height: 100px;
+    border: 2px solid #ccc;
+}
+
+#memberInfoTbl input{
+	margin-right: auto;
+	margin-left: auto;
+	
+	background-color: #FAE0D4;
+	border: 1px solid #E4F7BA;
+	height: 25px;
+	font-size: 10pt;
+	margin-bottom: 5px;
+	
+}
+
+#memberInfoTbl th{
+	font-size: 25pt;
+	text-shadow: black 0px 0px 5px;
+}
+
+#memberInfoTbl button{
+	background-color: #E4F7BA;
+	font-family: "i";
+	font-size: 14pt;
+	border: 1px solid #E4F7BA;
+}
+

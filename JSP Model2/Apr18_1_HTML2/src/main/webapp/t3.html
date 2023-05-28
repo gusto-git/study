@@ -1,0 +1,149 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta charset="UTF-8">
+<title>웹사이트</title>
+</head>
+<body>
+	<!-- 자주 사용할만한 유용한 태그들 -->
+	<h1>h1은 가장 큰 머리말(heading1)</h1>
+	<h2>h2은 두번째로 큰 머리말(heading2)</h2>
+	<h3>세번째</h3>
+	<h4>네번째</h4>
+	<h5>다섯</h5>
+	<h6>6</h6>
+	<p> 단락, 문단(paragraph)
+	: p태그 사용하면 내용 앞뒤로 빈줄이 생기며 단락이 발생(block level tag)
+	
+	<br>
+	<!-- br : 줄 바꾸기 -->
+	ㅋㅋㅋㅋㅋㅋㅋㅋㅋㅋㅋㅋㅋㅋㅋㅋㅋㅋㅋㅋㅋㅋㅋㅋㅋㅋㅋㅋ<br>
+	<!-- hr : 선 긋고 줄 바꾸기 -->
+	ㅎㅎㅎㅎㅎㅎㅎㅎㅎㅎㅎㅎㅎㅎㅎㅎㅎㅎㅎㅎㅎㅎㅎㅎㅎㅎㅎㅎ<hr>
+	<!-- p: 두줄바꾸기 -->
+	ㅎㅇㅎㅇㅎㅇㅎㅇㅎㅇㅎㅇㅎㅇㅎㅇㅎㅇㅎㅇㅎㅇㅎㅇㅎㅇㅎㅇ<p>
+	ㅃㅃㅃㅃㅃㅃㅃㅃㅃㅃㅃㅃㅃㅃㅃㅃㅃㅃㅃㅃㅃㅃㅃㅃㅃㅃㅃㅃ
+	
+	<hr>
+	<div>의미x, 목적에 따라서 컨텐츠를 묶을 때 사용</div>
+	<span>의미x, 목적에 따라 컨텐츠를 묶을 때 사용</span><br>
+	<!--  div, span의 차이 : 줄바꿈 유무 
+		  div가 줄바꿈 기능 포함하고 있음
+	-->
+	띄어          쓰기 <!-- 여러번 해도 한번만 적용 --><br>
+	띄어&nbsp;&nbsp;&nbsp;쓰기<p>
+	<!-- &nbsp; : 띄어쓰기 -->
+	a&lt;10 <!-- a < 10 --><br>
+	a&gt;20 <!-- b > 20 --><p><hr>
+	
+	<!--  글자 -->
+	<!-- 
+		글자색
+		내장되어있는 색 : 그 이름 불러다 사용
+		
+		빛 혼합
+		#RRGGBB
+			검정 : #000000
+			흰색 : #FFFFFF
+		#RRGGBBAA
+			AA : 투명도
+	 -->
+	 
+	<font size="25" face="궁서" color="#5652FF95"> 보라색 좋아 </font><br>
+	<p>글자 <b>굵게</b>하고싶으면</p>
+	<p>글자를 <i>기울기고</i>싶으면</p>
+	<p>글자에 <u>밑줄을</u> 긋고 싶으면</p>
+	
+	<!-- 목록 -->
+	<!-- 순서가 있는 목록 ordered list -->
+	<ol type="a">
+		<li>안녕하세요</li>
+		<li>반갑습니다</li>
+	</ol>
+	
+	<!-- 순서가 없는 목록 unordered list -->
+	<ul type="disc">
+		<li>안녕하세요</li>
+		<li>반갑습니다</li>
+	</ul>
+	
+	<!-- 그룹 -->
+	<fieldset> <!-- 하나의 그룹으로 묶어줌 -->
+		<legend>그룹의 이름/제목</legend> <!-- 그룹의 이름 -->
+		<ul>
+			<li>
+				<label>input을 설명하기 위한 용도</label>
+				<input value="뭔가를 입력할 수 있어요"><br>
+				
+				<label></label>
+				<input type="checkbox"> 첫 번째<br>
+				<input type="checkbox"> 두 번째<br>
+				
+				<label for="agree">텍스트를 눌러도 된다.</label>
+				<input type="checkbox id="agree"> 선택해보시지
+			</li>
+		</ul>
+	</fieldset>
+	
+	<!-- input 타입 다양! -->
+	<input>
+	<input type="range">
+	<input type="month">
+	<input type="file">
+	<input type="password">
+	<input type="submit">
+	<input type="radio">
+	<input type="number">
+	
+	<!-- 
+		<input type="유형" 속성="속성값">
+		type : 
+			hidden : 사용자에게 안보임, 서버로 값 보낼때 사용
+			password : 비밀번호 입력
+			range : 숫자(범위)를 조절할 수 있는 슬라이드 막대
+			number : 숫자를 조절할 수 있는 화살표
+			search : 검색
+			checkbox : 체크박스(여러개 선택이 가능)
+			radio : 라디오버튼(1개만 선택이 가능)
+			file : 업로드 기능
+			button : 버튼 기능
+			text, reset, submit, image, ... 
+		속성 : 
+			readonly : 읽기전용
+			placeholder : 힌트표시(input클릭하면 사라짐)
+			autofocus : 그 위치에 마우스 커서가 표시 됨
+			autocomplete : 자동완성
+			maxlength : 최대로 입력할 수 있는 글자수 지정
+			minlength : 없음;	
+	 -->
+		<hr>
+	  <img src="b.jpg">
+	  <img src="img/a.jpg">
+	  <a href="https://www.google.com"><img src="b.jpg"></a>
+	
+	
+</body>
+</html>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+

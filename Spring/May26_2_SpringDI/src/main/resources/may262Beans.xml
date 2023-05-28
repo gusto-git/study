@@ -1,0 +1,49 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<beans xmlns="http://www.springframework.org/schema/beans"
+	xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+	xmlns:context="http://www.springframework.org/schema/context"
+	xsi:schemaLocation="http://www.springframework.org/schema/beans http://www.springframework.org/schema/beans/spring-beans.xsd
+		http://www.springframework.org/schema/context http://www.springframework.org/schema/context/spring-context-3.1.xsd">
+	
+	<bean id="d" class="com.gusto.may262.dog.Dog">
+		<property name="name" value="댕댕이"></property>
+		<property name="age" value="3"></property>
+	</bean>
+	
+	<bean id="c" class="com.gusto.may262.cat.Cat">
+		<property name="name" value="나비"></property>
+		<property name="age" value="6"></property>
+	</bean>
+	
+	<context:annotation-config></context:annotation-config>
+	<bean id="h1" class="com.gusto.may262.human.Human">
+		<property name="name" value="lee"></property>
+		<property name="age" value="30"></property>
+		
+		<property name="nickname">
+			<list value-type="java.lang.String">
+				<value>stop</value>
+				<value>gusto</value>
+				<value>이혀넉</value>
+			</list>
+		</property>
+		
+		<property name="friend">
+			<list value-type="java.lang.String">
+				<value>이미리</value>
+				<value>오식원</value>
+				<value>김부자</value>
+			</list>
+		</property>
+		
+		<property name="family">
+			<map key-type="java.lang.String" value-type="java.lang.Integer">
+				<entry key="아빠" value="1233"></entry>
+				<entry key="엄마" value="3321"></entry>
+			</map>
+		</property>
+	
+		<property name="pet" ref="d"></property>
+	
+	</bean>
+</beans>

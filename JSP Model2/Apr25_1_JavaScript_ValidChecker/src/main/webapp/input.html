@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta charset="UTF-8">
+<title>input.html</title>
+
+<script type="text/javascript">
+	function goHAha() {
+		
+		let iiInput = document.getElementById("ii"); // document : html 문서를 의미 , getElementById : id가 ii 인것 
+// 		alert(iiInput) // [object HTTMLInputElenment]가 출력 된다. 동작 유/무 확인
+// 		document.getElementByclass("ii"); // class이름을 가져오고 싶을 때 사용한다.
+// 		document.getElementByTagName("input") // 특정 태그명을 작성하면, 특정 태그명으로 받아올 수 있다.
+		let iiInputVal = iiInput.value; // 입력한 내용이 보이게 하기 이대로 실행하면 오류가 나고 alert()를 사용해야한다.
+// 		alert(iiInputVal); 
+		location.href= "ㅋㅋㅋ?ii=" + iiInputVal; // 우리가 원하는 주소를 주소창에 입력할 수 있다.
+	}
+</script>
+
+</head>
+<body>
+	 <input id="ii">
+	 <button onclick="goHAha();">확인</button>
+	<!-- 
+		input에 값 넣어서 button클릭하면 ㅋㅋㅋ?ii=XXX(주소창)로 GET방식 요청한다고 할때
+		<form> : 입력받아서 요청할 때 필수품이 아니다. 
+		<form> : 입력받아서 요청할 때 편하다.
+		
+		주소입력 : GET
+		<a> : GET
+		<form> + <button> : GET / POST
+		JavaScript : GET
+	 -->
+	 
+</body>
+</html>

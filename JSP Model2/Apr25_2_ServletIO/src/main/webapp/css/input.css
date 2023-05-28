@@ -1,0 +1,38 @@
+@charset "UTF-8";
+#bmitbl {
+	margin-left: auto;
+	margin-right: auto;
+	margin-top: 10px;
+	width: 500px;
+	height: 450px;
+	border: black solid 5px;
+	background-color: transparent;
+	font-size: 25pt;
+	border-radius: 10px;
+	box-shadow: #D1B2FF 3px 5px 5px;
+}
+
+#bmitbl .bmitd{
+	font-size:  25pt;
+	font-weight: 700;
+	text-shadow: black 1px 1px;
+	color: #D1B2FF;
+}
+
+body {
+	margin-left: 0px;
+	margin-right: 0px;
+}
+
+#bmitbl .bmitd2{
+	font-size:  10pt;
+	width: 300px;
+	height: 50px;
+	outline: none;
+	color: black;
+	background-color: transparent;
+	border: black solid 3px;
+	margin-left: auto;
+	margin-right: auto;
+	box-shadow: #D1B2FF 3px 5px 5px;
+}

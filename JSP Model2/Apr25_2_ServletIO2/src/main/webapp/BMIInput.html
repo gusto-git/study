@@ -1,0 +1,57 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta charset="UTF-8">
+<title>BMIInput.html</title>
+<link rel="stylesheet" href="css/input.css">
+<script type="text/javascript" src="js/GustoValidChecker.js"></script>
+<script type="text/javascript" src="js/Apr25_Check.js"></script>
+</head>
+<body>
+	<!-- 
+		BMI
+		table + form 화룡
+		BMI 검사할 때 필요한 정보를 입력하는 칸
+		이름, 키, 몸무게, 사진 
+	 -->
+	
+	 	<form action="BMIOutput.jsp" name="bmiForm" method="post" enctype="multipart/form-data" 
+	 		onsubmit="return checkBMI();">
+			 <table id="bmitbl">
+			 	<tr>
+			 		<th colspan="2">BMI검사</th>
+			 	</tr>
+			 	<tr>
+			 		<td class="bmitd">이름</td>
+			 		<td align="center" >
+			 		<input name="name" autofocus="autofocus" placeholder="필수"
+			 		autocomplete="off" maxlength="10" class="bmitd2">
+			 		</td>
+			 	</tr>
+			 	<tr>
+			 		<td class="bmitd">키</td>
+			 		<td align="center">
+			 		<input name="height"  placeholder="cm" autocomplete="off" class="bmitd2">
+			 		</td>
+			 	</tr>
+			 	<tr>
+			 		<td class="bmitd">몸무게</td>
+			 		<td align="center">
+			 		<input name="weight" placeholder="kg" autocomplete="off" class="bmitd2">
+			 		</td>
+			 	</tr>
+			 	<tr>
+			 		<td class="bmitd">사진</td>
+			 		<td>
+			 		<input name="photo" type="file" class="bmitd3">
+			 		</td>
+			 	</tr>
+			 	<tr>
+			 		<td colspan="2" align="center"><button class="bmitd3">입력</button></td>
+			 	</tr>
+			 	
+	 		 </table>
+	 	</form>
+	
+</body>
+</html>

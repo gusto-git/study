@@ -1,0 +1,28 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta charset="UTF-8">
+<title>v1.html</title>
+<link rel="stylesheet" href="css/v2.css">
+<script type="text/javascript" src="js/GustoValidChecker.js"></script>
+<script type="text/javascript" src="js/m2.js"></script>
+</head>
+<body>
+	<!-- 
+		view : HTML / JSP
+		실제 Client가 보는 페이지 + 입력 + 출력
+	 -->
+
+	 <h1>V1</h1>
+	 <form action="C" method="post" name="f" onsubmit="return check();">
+	 	x: <input name="x"><p>
+	 	y: <input name="y"><p>
+	 	<button>계산</button>
+	 <!-- 
+	 	css 파일 하나 생성해서  css 간단하게 연결
+	 	js 파일 새로 만들어서 유효성 검사(x,y 필수로 써야하고, 숫자가 아니면 안되게)
+	  -->
+	 </form>
+	
+</body>
+</html>

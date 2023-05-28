@@ -1,0 +1,83 @@
+@charset "UTF-8";
+
+::webkit-scrollbar {
+	display: none;
+}
+
+@font-face {
+	font-family: "i";
+	src: url("i.ttf");
+}
+
+body {
+	margin-top: 0px;
+	margin-left: auto;
+	margin-right: auto;
+	background-image: url("../img/s.jpg");
+	font-family: "i";
+}
+
+#siteTitleTbl {
+	width: 100%;
+	border-spacing: 0px;
+}
+
+#siteTitle {
+	background-color: teal;
+	height: 60px;
+}
+
+#siteTitle a {
+	font-size: 40pt;
+	font-weight: 600;
+	color: white;
+	text-decoration: none;
+}
+
+#siteMenu {
+	background-color: pink;
+}
+
+#siteMenu a {
+	font-size: 40pt;
+	font-weight: 600;
+	color: white;
+	text-decoration: none;	
+}
+
+#siteContentTbl {
+	width: 100%;
+	background-color: transparent;
+	margin-top: -10px;
+}
+
+#siteContent {
+	font-size: 20pt;
+	font-weight: 400;
+	color: white;
+	text-shadow: teal 0px 0px 5px;
+}
+
+#homeImg {
+	position: fixed;
+	left: 0px;
+	bottom: 0px;
+	width: 300px;
+	height: 300px;
+	opacity: 0.5;
+}
+
+#siteLoginTbl {
+	width: 200px;
+	height: 200px;
+	position: fixed;
+	top: 125px;
+	right:0px;
+	background-color: teal;
+}
+
+
+
+
+
+

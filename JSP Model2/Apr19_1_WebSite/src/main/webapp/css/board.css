@@ -1,0 +1,50 @@
+@charset "UTF-8";
+/*board.css*/
+
+#boardTbl {
+	margin-left: auto;
+	margin-right: auto;
+	margin-top: 200px;
+	width: 900px;
+}
+
+.aguestbook {
+	width: 700px;
+	border: red dashed 3px;
+	border-radius: 10px;
+	box-shadow: maroon 0px 0px 20px inset;
+	font-size: 15pt;
+	font-weight: 700;
+	margin: 10px;
+}
+
+.imgTd {
+	width: 150px;
+	padding: 10px;
+}
+
+.aguestbook img {
+	max-width: 150px;
+	max-height: 150px;
+	border-radius: 30px;
+}
+
+.textTd {
+	max-width: 500px;
+	vertical-align: top;
+	padding-top: 30px;
+	overflow: hidden; /*max-width를 벗어나는 내용을 숨길때*/		
+	white-space: nowrap; /* 글자를 어떻게 둘지 정할 때 -> 벗어나는 내용 상관없이 한줄로 표시*/
+	text-overflow: ellipsis; /*끝에 잘리는 부분이 있을 때 ...으로 표시해서 알려줌*/
+}
+
+textarea {
+	background-color: transparent; /*배경 투명하게*/
+	border: none;
+	font-size: 15pt;
+	resize: none;
+}
+
+textarea:focus {
+	outline: none;
+}

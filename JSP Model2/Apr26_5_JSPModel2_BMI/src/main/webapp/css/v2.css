@@ -1,0 +1,31 @@
+@charset "UTF-8";
+
+body{
+	background-image: url(../img/s.jpg);
+	
+}
+
+#bmitbl{
+	background-color: transparent;
+	margin-left: auto;
+	margin-right: auto;
+	width: 350px;
+	outline: 1px solid white;
+	
+}
+
+th{
+	font-size: 23px;
+	text-shadow: black 1px 2px 1px;
+	color: #4374D9;
+}
+
+#bmitbl .bmitd1{
+	font-size: 20px;
+	color: #4374D9;
+	text-shadow: black 1px 2px 1px;
+}
+
+#bmitbl .bmiinput{
+	background-color: transparent;
+}

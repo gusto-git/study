@@ -1,0 +1,18 @@
+@charset "UTF-8";
+
+@font-face {
+	font-family: "i";
+	src: url("i.ttf");
+}
+
+
+#welcomTbl img{
+	max-width: 100px; /* 이미지 최대 너비 */
+    max-height: 100px;
+}
+
+#welcomTbl button{
+	background-color: pink;
+	font-family: "i";
+	font-size: 14pt;
+}

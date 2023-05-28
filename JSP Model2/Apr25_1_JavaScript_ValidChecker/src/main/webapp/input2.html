@@ -1,0 +1,21 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta charset="UTF-8">
+<title>input2.html</title>
+<script type="text/javascript">
+	function asdf(){
+		let iiInput = document.getElementById('ii');
+		console.log(iiInput.value.indexOf('a'));
+		// indexOf로 내가 찾는 글자가 없으면 : -1
+		// 내가 찾는 글자가 있으면 : 해당하는 글자의 위치를 알려줌
+		// == -1 >> 없으면 / != -1 >> 있으면
+	}
+
+</script>
+</head>
+<body>
+	<input id="ii">
+	<button onclick="asdf();">고</button>
+</body>
+</html>

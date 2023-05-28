@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta charset="UTF-8">
+<title>v1.html</title>
+<link rel="stylesheet" href="css/v2.css">
+<script type="text/javascript" src="js/GustoValidChecker.js"></script>
+<script type="text/javascript" src="js/m2.js"></script>
+</head>
+<body>
+ 	<form action="HomeController" method="post" enctype="multipart/form-data" name="f" onsubmit="return bmicheck()"> 
+		<table id="bmitbl">
+			<tr>
+				<th colspan="2" class="bmith">BMI검사</th>
+			</tr>
+			
+			<tr>
+				<td class="bmitd1">이름</td>
+				<td  align="center">
+					<input name="name" class="bmiinput" placeholder="필수" maxlength="10" autofocus="autofocus" autocomplete="off">
+				</td>
+			</tr>
+			
+			<tr>
+				<td class="bmitd1">키</td>
+				<td  align="center">
+					<input name="height" class="bmiinput" placeholder="cm" autocomplete="off">
+				</td>
+			</tr>
+			
+			<tr>
+				<td class="bmitd1">몸무게</td>
+				<td  align="center">
+					<input name="weight" class="bmiinput"  placeholder="kg" autocomplete="off">
+				</td>
+			</tr>
+			
+			<tr>
+				<td class="bmitd1">사진</td>
+				<td  align="center" class="bmiinput">
+					<input type="file" name="photo" class="bmiinput">
+				</td>
+			</tr>
+			
+			<tr>
+				<td colspan="2" align="center"><button class="bmiinput"> 입력 </button></td>
+			</tr>
+			
+			
+		</table>
+	</form>
+
+</body>
+</html>

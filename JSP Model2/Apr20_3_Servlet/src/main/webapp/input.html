@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta charset="UTF-8">
+<title>회원가입 페이지</title>
+</head>
+<body>
+	<table id="joinTbl">
+		<tr>
+			<td colspan="2" align="center">회원가입</td>
+		</tr>
+		<tr>
+			<td align="center" class="td1">ID</td>
+			<td align="center">
+				<input autofocus="autofocus" autocomplete="off" placeholder="필수, 4~8자" name="ID"  class="textType">
+			</td>
+		</tr>
+		<tr>
+			<td align="center">PW</td>
+			<td align="center">
+				<input type="password" autocomplete="off" placeholder="필수, 영문/숫자 혼합" name="PW" class="textType">
+			</td>
+		</tr>
+		<tr>
+			<td align="center">성별</td>
+			<td>
+				<input type="radio" checked="checked" name="GD" value="남자">남자
+				<input type="radio" name="GD" value="여자">여자
+			</td>
+		</tr>
+		
+	</table>	
+
+</body>
+</html>
+
+	<!--  
+		회원가입 페이지
+		ID
+		PW
+		성별
+		지역
+			<select>
+				<option>서울</option>
+				<option>경기</option>
+			</select>
+		취미 (복수선택 가능)
+		자기소개 <textarea>
+		가입 버튼을 누르면 -> 내가 입력한 정보들이 새로운 페이지에서 출력되게(Servlet - Output.java)
+		+ html 페이지 css까지 
+	 -->

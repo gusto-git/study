@@ -1,0 +1,95 @@
+@charset "UTF-8";
+/* index.css */
+/*폰트등록*/
+@font-face {
+	/* css에 추가(IE에서는 안먹혀) */
+	font-family: "h";
+	src: url("H.TTF");
+}
+
+::-webkit-scrollbar {
+	display: none; /*스크롤바 없애기*/
+}
+
+body {
+	/* background-color: black; 연결됐는지 확인 용*/
+	font-family: "h";
+	background-image: url("back.png"); /*배경이미지넣기*/
+	background-repeat: no-repeat; /*배경이미지반복없애기*/
+	background-size: cover; /*배경이미지 꽉차게*/
+	/*html  기본 여백 없애기*/
+	margin: 0px;
+	padding: 0px;
+}
+
+#siteTitleArea {
+	width: 100%; /*넓이*/
+	/*background-color: lime;*/
+	border-spacing: 0px; /*td간의 간격*/
+	top: 0px;
+	left: 0px; /*좌표조절*/
+}
+
+#siteTitle {
+	font-size: 30pt;
+	color: #6B66FF;
+	font-weight: 900;
+	text-shadow: gray 0px 0px 10px; /*색 x y 퍼짐정도*/
+}
+
+#siteMenuArea {
+	font-size: 25pt;
+	background-color: #FFD9FA;
+}
+
+/*id가 siteMenuArea인 곳의 table 넓이를 100%*/
+#siteMenuArea table {
+	width: 100%;
+}
+
+/*id가 siteMenuArea인 곳의 td의 넓이를 25%, 글자 가운데정렬*/
+#siteMenuArea td {
+	width: 25%;
+	text-align: center;
+}
+
+#siteMenuArea a {
+	text-decoration: none;
+	color: #0054FF;
+	font-weight: 500;
+	/*애니메이션효과*/
+	/*속성명 시간 (ease-in, ease-out)*/
+	transition: all 0.5s ease-in;
+}
+
+#siteMenuArea a:hover {
+	font-size: 40pt;
+	text-shadow: #B4FFFF 0px 0px 10px;
+	text-decoration: blink;
+}
+
+#siteMenuArea a:active {
+	color: #FF0000;
+}
+
+#siteContentArea {
+	width: 1000px;
+	/*가운데정렬*/
+	margin-left: auto;
+	margin-right: auto;
+	margin-top: 200px;
+}
+
+#siteContentArea img {
+	box-shadow: black 5px 5px 5px;
+	border: red solid 10px;
+	border-radius: 10px; /*모서리둥글게*/
+}
+
+
+
+
+
+
+
+

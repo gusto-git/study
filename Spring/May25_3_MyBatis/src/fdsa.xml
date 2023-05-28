@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE mapper PUBLIC "-//mybatis.org//DTD Mapper 3.0//EN" "http://mybatis.org/dtd/mybatis-3-mapper.dtd">
+<mapper namespace="fdsa">
+	<select id="getAllCoffee" resultType="Coffee">
+		select * from MAY25_COFFEE order by c_price
+	</select>
+	
+	<insert id="regCoffee" parameterType="Coffee">
+		insert into MAY25_COFFEE values(#{c_name}, #{c_price})
+	</insert>
+</mapper>

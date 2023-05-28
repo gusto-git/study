@@ -1,0 +1,73 @@
+@charset "UTF-8";
+
+#signupTbl{
+	margin-left: auto;
+	margin-right: auto;
+	margin-top: 20pt;
+}
+
+#signupTbl input{
+	border: #F0F8FF solid 5px;
+	border-radius: 5px;
+	margin-top: 5px;
+	height: 35px;
+	width: 300px;
+	font-size: 15pt;
+	font-weight: 500;
+	color: #6495ED;
+	text-align: center;
+}
+
+#signupTbl input::palceholder{
+	text-align: center;
+	font-weight: 500;
+	font-size: 15pt;
+	color: #6495ed;
+}
+
+#signupTbl button{
+	border: #F0F8FF solid 5px;
+	border-radius: 5px;
+	font-size: 15pt;
+	font-weight: 700;
+	color: #6495ED;
+	background-color: #ffdab9;
+	width: 150px;
+	height: 50px;
+	margin-top: 10px;
+	cursor: pointer;
+}
+
+#signupTbl select{
+	width: 75px;
+	height: 35px;
+	border: #f0f8ff solid 5px;
+	border-radius: 5px;
+	background-color: #ffdab9;
+	color: #6495ed;
+	font-size: 15pt;
+	margin-top: 5px;
+}
+
+input[type=file]::file-selector-button{
+	border: #f0f8ff solid 5px;
+	border-radius: 10px;
+	background-color: #ffdab9;
+	cursor: pointer;
+	color: #6495ed;
+}
+
+input[type=file]::file-selector-button:hover{
+	background-color: #b0e0e6;
+}
+
+#memberUpdatePhoto {
+	width: 200px;
+}
+
+#signupTbl img{
+	max-width: 300px;
+}
+
+
+

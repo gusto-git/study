@@ -1,0 +1,41 @@
+@charset "UTF-8";
+
+@font=face{
+	font-family: "i";
+	src: url("i.ttf");
+}
+
+body{
+	background-image: url("casino.jpg");
+	background-size: 50%;
+	font-family: "i";
+	
+}
+
+#hjTbl{
+	margin-left: auto;
+	margin-right: auto;
+	width: 500px;
+}
+
+th {
+	border-bottom-color: #D2D2D2;
+	color: #86E57F;
+	font-size: 30pt;
+	height: 540px;
+	text-shadow: black 0px 0px 5px;
+}
+
+img{
+	width: 250px;
+	height: 250px;
+	border: #D2D2D2 solid 5px;
+	border-radius: 20px;
+}
+
+.td1 {
+	background-color: #D2D2D2;
+	font-size: 30pt;
+	height: 50px;
+	
+}

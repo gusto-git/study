@@ -1,0 +1,60 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta charset="UTF-8">
+<title>input3.html</title>
+<script type="text/javascript" src="GustoValidChecker.js"></script>
+<script type="text/javascript">
+	function checkValid() {
+		let idInput = document.ff.idid; // document.form이름.input이름	
+		let pwInput = document.ff.pwpw;
+		let pwChkInput = document.ff.pwChk;
+		let footInput = document.ff.foot;
+		
+		// ID는 필수, 최소 2글자 ~ 최대 10글자 
+		if (isEmpty(idInput) || atLeastLetter(idInput, 2)) {
+			alert('글자 수가 부족합니다.');
+			idInput.value=""; // input에 쓰인 내용 초기화
+			idInput.focus(); // 커서 갖다놓기
+			return false;
+			
+		} else if (isEmpty(pwInput) || atLeastLetter(pwInput, 5)){ // pw 필수, 최소 5글자 ~ 최대 10글자 
+			alert('글자 수가 부족합니다.');
+			pwInput.value="";
+			pwInput.focus();
+			return false;
+			
+		} else if (isEmpty(pwChkInput) || atLeastLetter(pwChkInput, 5)) {
+			alert('글자 수가 부족합니다.');
+			pwChkInput.value="";
+			return false;
+			
+		} else if (notEqualPW(pwInput, pwChkInput)) {
+			alert('비밀번호가 서로 다릅니다.')
+			pwInput.value="";
+			pwChkInput.value="";
+			pwInput.focus();
+			return false;
+			
+		} else if (isEmpty(footInput) || isNotNumber(footInput)) {
+			alert('정확한 사이즈를 입력하세요.')
+			footInput.value="";
+			footInput.focus();
+			return false;
+		}
+		return true;
+	}
+</script>
+</head>
+<body>
+<!-- 폼안에 id pw 발사이즈 버튼 -->
+ <form action="ㅋㅋㅋㅋ" name="ff" onsubmit="return checkValid();"> 
+ 	ID : <input name="idid" maxlength="10" autofocus="autofocus"><p>
+ 	PW : <input name="pwpw" maxlength="10"><p>
+ 	PW확인 : <input name="pwChk" maxlength="10"><p>
+ 	SIZE : <input name="foot"><p>
+ 	<button>입력</button>
+ 
+ </form> 
+</body>
+</html>

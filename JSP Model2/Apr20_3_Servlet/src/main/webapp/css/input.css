@@ -1,0 +1,109 @@
+@charset "UTF-8";
+
+#joinTbl {
+	margin-left: auto;
+	margin-right: auto;
+	background-color: pink;
+	font-size: 15pt;
+	border-radius: 10px;
+	box-shadow: purple 3px 5px 5px;
+}
+
+#joinTd{
+	font-size:  25pt;
+	font-weight: 700;
+	text-shadow: white 3px 5px 5px;
+	color: purple;
+}
+
+#joinTbl .td1 {
+	margin-bottom: 10px;
+	color: purple;
+	font-weight: 700;
+}
+
+#joinTbl .textType{
+	margin-bottom: 10px;
+	outline: none;
+	text-align: center; 
+	border: white solid 3px;
+	border-radius: 10px;
+	background-color: transparent;
+	color: purple;
+	font-size: 10pt;
+	font-weight: 600;
+}
+
+#joinTbl .textType::placeholder{
+	color: white;
+}
+
+#joinTbl .textType:focus{
+	border:black dashed 3px;
+}
+
+#joinTbl button{
+	border: none;
+	background-color: transparent;
+	color: purple;
+	font-size: 15pt;
+	cursor: pointer;
+}
+
+#joinTbl button:hover{
+	text-decoration: underline;
+	color: black;
+	
+}
+
+#joinTbl select{
+	border: none;
+	background-color: transparent;
+	font-size: 15pt;
+	outline: none;
+	width: 85%;
+	padding-left: 20px; 
+}
+
+#joinTbl textarea{
+	resize: none;
+	background-color: transparent;
+	border: white solid 3px;
+	border-radius: 10px;
+	width: 90%;
+	height: 70px;
+	outline: none;
+	font-size: 13pt;
+	color: purple;
+	
+}
+#joinTbl textarea:focus{
+	border: black dashed 3px;
+	font-size: 13pt;
+	color: purple;
+}
+
+#joinTbl .radioTd{
+	color: white;
+	height: 50px;
+}
+
+.test{
+	background-color: pink;
+}
+
+input[type="radio"]{
+	accent-color: red;
+	cursor: pointer;
+}
+
+input[type="checkbox"]{
+	accent-color: red;
+	cursor: pointer;
+}
+
+
+
+
+
+

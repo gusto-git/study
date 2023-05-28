@@ -1,0 +1,51 @@
+@charset "UTF-8";
+
+#calcTbl {
+	margin-left: auto;
+	margin-right: auto;
+	margin-top: 50px;
+	box-shadow: white 3px 3px 10px;
+	width: 500px;
+	height: 500px;
+	
+}
+
+#calcTbl input{
+	border: white solid 3px;
+	background-color: transparent;
+	width: 80%;
+	color: teal;
+	font-size: 25pt;
+	font-weight: 700;
+	outline: none;
+	text-align: center;
+}
+
+#calcTbl button{
+	border: white solid 3px;
+	border: white solid 3px;
+	background-color: transparent;
+	width: 80%;
+	color: teal;
+	font-size: 25pt;
+	font-weight: 700;
+	text-align: center;
+}
+
+#calcTbl input::placeholder{
+	font-size: 25pt;
+}
+
+label{
+	font-size: 25pt;
+	color: teal;
+}
+
+.resultTd{
+	color: white;
+	font-size: 30pt;
+}
+
+#outputTbl{
+	text-shadow: teal 3px 3px 3px;
+}

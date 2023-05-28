@@ -1,0 +1,26 @@
+@charset "UTF-8";
+@font-face {
+	font-family: "i";
+	src: url("i.ttf");
+}
+
+#loginTbl button{
+	background-color: pink;
+	font-family: "i";
+	font-size: 14pt;
+}
+
+#loginTbl .loginTitle{
+	font-size: 20pt;
+}
+
+#loginTbl input {
+	width:200px;
+	height: 20px;
+	font-size: 14px;
+	border-radius: 4px;
+	
+
+}
+
+

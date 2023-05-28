@@ -1,0 +1,81 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta charset="UTF-8">
+<title>회원가입</title>
+<link rel="stylesheet" href="css/input.css">
+</head>
+<body>
+	<form action="Output" method="post">
+		<table id="joinTbl">
+			<tr>
+				<td colspan="2" align="center" id="joinTd" >회원가입</td>
+			</tr>
+			<tr>
+				<td align="center" class="td1">ID</td>
+				<td align="center">
+					<input autofocus="autofocus" autocomplete="off" placeholder="필수, 4~8자" name="ID"  class="textType">
+				</td>
+			</tr>
+			<tr>
+				<td align="center" class="td1">PW</td>
+				<td align="center">
+					<input type="password" autocomplete="off" placeholder="필수, 영문/숫자 혼합" name="PW"  class="textType">
+				</td>
+			</tr>
+			<tr>
+				<td align="center" class="td1">성별</td>
+				<td align="center" class="raidoTd">
+					<input type="radio" checked="checked" name="GD" value="남자">남자
+					<input type="radio" name="GD" value="여자">여자
+				</td>
+			</tr>
+			<tr>
+				<td align="center" class="td1">지역</td>
+				<td align="center" >
+					<select name="LC" class="raidoTd">
+						<option class="test">서울</option>
+						<option class="test">인천</option>
+						<option class="test">경기</option>
+						<option class="test">강원</option>
+						<option class="test">충북</option>
+						<option class="test">충남</option>
+						<option class="test">전북</option>
+						<option class="test">전남</option>
+						<option class="test">경북</option>
+						<option class="test">경남</option>
+						<option class="test">제주</option>
+						<option class="test">부산</option>
+					</select>
+				</td>
+			</tr>
+			<tr>
+				<td align="center" class="td1">취미</td>
+				<td align="center">
+					<table id="checkboxTbl">
+						<tr>
+							<td><input type="checkbox" value="게임" name="HB">게임
+							<td><input type="checkbox" value="골프" name="HB">골프
+							<td><input type="checkbox" value="운동" name="HB">운동
+						</tr>
+						<tr>
+							<td><input type="checkbox" value="독서" name="HB">독서
+							<td><input type="checkbox" value="맛집" name="HB">맛집
+							<td><input type="checkbox" value="악기" name="HB">악기
+						</tr>
+					</table>
+				</td>
+			</tr>
+			<tr>
+				<td align="center" class="td1">자기소개</td>
+				<td align="center">
+					<textarea name="IND"></textarea>
+				</td>
+			</tr>
+			<tr>
+				<td colspan="2" align="center" ><button>가입</button></td>
+			</tr>
+		</table>
+	</form>
+</body>
+</html>
